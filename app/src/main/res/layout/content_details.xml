@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_Genre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:gravity="center|left"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_Director"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+
+                android:gravity="center|left"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_Released"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:gravity="center|left"
+
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_Runtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+
+                android:gravity="center|left"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_Language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+
+                android:gravity="center|left"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_Rated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+
+                android:gravity="center|left"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_Actors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:gravity="center|left"
+
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txt_writer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+
+            android:gravity="center|left"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txt_Awards"
+            android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+
+        android:gravity="center|left"
+        android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txt_Plot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:gravity="center|left"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
